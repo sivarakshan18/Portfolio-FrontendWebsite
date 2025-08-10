@@ -10,7 +10,7 @@ const Services = () => {
     },
     {
       title: "Full-Stack Development",
-      description: "Building complete web applications using MERN stack or Django + React.",
+      description: "Building complete web applications using Java stack or Django + React.",
     },
     {
       title: "API Integration",

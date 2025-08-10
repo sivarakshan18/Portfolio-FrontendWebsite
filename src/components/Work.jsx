@@ -1,7 +1,7 @@
 import React from "react";
-import project1 from "../assets/project1.jpg";
+import project3 from "../assets/project.jpg";
 import project2 from "../assets/project2.jpg";
-import project3 from "../assets/project3.jpg";
+import project1 from "../assets/project3.jpg";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import Skills from "./Skills";
@@ -10,9 +10,9 @@ const Work = () => {
   const projects = [
     {
       id: 1,
-      title: "Hospital Management System",
+      title: "Smart Email Assistant",
       decription:
-        "A full-stack web application to manage hospital operations including patient registration, doctor appointments, and admin control. Built using Django, React, and JWT authentication.",
+      "An AI-powered assistant that generates, summarizes, and responds to emails with context-aware intelligence. Enhances productivity by automating email drafting and reply suggestions using Gemini AI.",
       image: project1,
       link: "#",
     },
@@ -24,11 +24,11 @@ const Work = () => {
       image: project2,
       link: "#",
     },
-    {
+   {
       id: 3,
-      title: "TravelBloom",
+      title: "Hospital Management System",
       decription:
-        "A responsive travel website to explore destinations, book trips, and view packages with a modern UI.",
+        "A full-stack web application to manage hospital operations including patient registration, doctor appointments, and admin control. Built using Django, React, and JWT authentication.",
       image: project3,
       link: "#",
     },
@@ -84,7 +84,7 @@ const Work = () => {
                 <motion.img
                   src={pro.image}
                   alt=""
-                  className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
                 />
                 <div className="p-6">
                   <h3 className="text-xl text-white font-semibold mb-2">
