@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/img.png";
+import hero from "../assets/hero.png";
 import { motion } from "framer-motion"; // use 'framer-motion' instead of 'motion/react'
 import { Link } from "react-scroll";
 
@@ -90,3 +90,4 @@ className="mx-auto w-40 h-40 rounded-full object-cover"
 };
 
 export default Hero;
+
