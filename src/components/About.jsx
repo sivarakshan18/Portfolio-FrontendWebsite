@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/my image.png";
+import about from "../assets/about.png";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -112,3 +112,4 @@ const About = () => {
 };
 
 export default About;
+
